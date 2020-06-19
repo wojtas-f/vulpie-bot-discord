@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "env-cmd -f ./config/config.env node index.js"
+    "dev": "env-cmd -f ./config/config.env nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "discord.js": "^12.2.0",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0"
